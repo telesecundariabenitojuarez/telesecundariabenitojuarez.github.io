@@ -1,0 +1,192 @@
+html{
+    font-size: 90%;
+}
+
+body{
+    font-size: 100%;
+    background-image: url(../Img/d.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.navegar{
+    background-color:aliceblue;
+}
+
+.centrar{
+    width: 60rem;
+    margin: 0 auto 0 auto
+}
+
+.navegar2 a{
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 1rem;
+    text-align:center;
+}
+
+.navegar2 a:hover{
+    background-color:rgb(169, 208, 241);
+    margin: 1rem;
+}
+
+.navegar2{
+    display:flex;
+    justify-content: space-between;
+}
+
+div.texto2{
+    font-size: 1rem;
+    text-align: center;
+
+}
+
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14;
+    padding: 4px 10px;
+}
+
+.img{
+    background-image: url(../Img/Escuela.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 16rem;
+    padding: 1rem;
+}
+
+div.imagen{
+    margin: 35px 28px;
+    box-shadow: 0 6px 8px 0 green;
+    float: right;
+    width: 360px;
+}
+
+div.imagen img{
+    width: 95%;
+    height: auto;
+    image-orientation:from-image;
+}
+
+div.imagen:hover{
+    border: 1px solid rgb(20, 78, 66);
+    transform: rotate(-3deg);
+}
+
+/* ***************************** */
+div.left img{
+    width: 35%;
+    height: auto;
+    float: left;
+    padding: 1rem 10rem;
+}
+
+h2{
+    text-align: center;
+    text-decoration: none;
+}
+
+.actividades{
+    display:inline;
+    justify-content:center;
+}
+
+.separar1{
+    padding: 6rem 30mm 1mm;
+}
+
+.separar h2{
+    text-align: center;
+    text-shadow:0px 2px rgb(100, 179, 135);
+    text-decoration:none;
+}
+
+div.right img{
+    width: 33%;
+    height: auto;
+    float: right;
+    padding: 14.7mm;
+}
+
+.separar2{
+    padding: 9rem 25mm 2rem;
+}
+
+/* ***************************** */
+h1{
+    text-align: center;
+    text-shadow: 0px 4px rgb(161, 224, 161);
+}
+
+button{
+    background-position: center;
+}
+
+button:hover{
+    border-color: green;
+}
+
+div.imag img{
+    width: 20%;
+    height: auto;
+}
+
+.texto{
+    padding: 1mm 300px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ****************************** */
+.separarmain{
+    display: flex;
+    justify-content:space-between;
+}
+
+.separar{
+    padding:2rem;
+}
+
+.separarmain h1{
+    text-align:center;
+    text-shadow:0px 2px rgb(100, 179, 135);
+    text-decoration:solid;
+}
+
+div.separar img{
+    width: 10rem;
+    height: 11rem;
+}
+
+.img2{
+    background-image: url(../Img/serviciosescolares.jpg);
+    background-repeat:no-repeat;
+    background-size:contain;
+    height:3cm;
+    padding:1cm;
+    background-position: center;
+}
+
+div.separar img{
+    width: 10rem;
+    height: 11rem;
+}
+
+div.img3 img{
+    width: 15cm;
+    height: 10cm;
+    
+}    
+
+footer{
+    background-color: rgb(116, 116, 116);
+    padding: 100px 1cm;
+    color: white;
+    text-align: center;
+    background-image: url(../Img/logo.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
